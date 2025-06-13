@@ -1,3 +1,5 @@
+#handlers/__init__.py
+
 from .commands import router as commands_router
 from .auth import router as auth_router
 from .text_handlers import router as text_router

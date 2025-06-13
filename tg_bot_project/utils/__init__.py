@@ -1,3 +1,5 @@
+#utils/__init__.py
+
 from .db import login, logout, profile
 from .utils_func import format_student_info
 from .schedule import get_schedule

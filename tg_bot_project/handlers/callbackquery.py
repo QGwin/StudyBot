@@ -1,3 +1,5 @@
+#handlers/callbackquery.py
+
 from aiogram import Router, types, F
 from tg_bot_project.utils.schedule import get_schedule
 

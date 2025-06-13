@@ -1,3 +1,5 @@
+#keyboards/inline_kb.py
+
 from aiogram.types import InlineKeyboardButton
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
