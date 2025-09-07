@@ -8,8 +8,9 @@ API_KEY = config('AI_API')
 URL_AI = config('URL_AI')
 
 async def ai_request(message: str) -> str:
+    sub_mes = " не используй никаких знаков кроме знаков препинания"
     request_json = {
-        "message": message,
+        "message": message+sub_mes,
         "api_key": API_KEY
     }
 

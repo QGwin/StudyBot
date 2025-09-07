@@ -30,7 +30,7 @@ async def start_help(message: types.Message, state: FSMContext):
 @router.message(SubState.help_tg_id)
 async def send_mes_to_admin(message: types.Message, state: FSMContext):
     await message.answer("Сообщение успешно отправлено!✅\nЖдите ответа от поддержки!")
-    await message.bot.send_message(chat_id=8019661877,
+    await message.bot.send_message(chat_id=882880478,
                            text=f'TG ID пользователя:\n<code>{message.from_user.id}</code>\n\n'
                                 f'Сообщение:\n{message.text}')
     await state.clear()
